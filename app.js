@@ -2,7 +2,7 @@
 import { createClient } from 'https://esm.sh/@supabase/supabase-js@2';
 
 // TROQUE ESTES DOIS VALORES PELOS DADOS DO SEU PROJETO
-const SUPABASE_URL = 'https://mcbxymqrqafxfctvlmal.supabase.co/rest/v1/';
+const SUPABASE_URL = 'https://mcbxymqrqafxfctvlmal.supabase.co';
 const SUPABASE_KEY = 'sb_publishable_lSSdDTMb76jlduawHPC6lA_y-dz-ptO';
 
 const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
